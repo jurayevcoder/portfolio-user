@@ -4,6 +4,7 @@
         <main class="min-h-screen bg-[#313131]">
             <slot />
         </main>
+        <Footer />
     </div>
 </template>
   
