@@ -14,7 +14,7 @@
                             <NuxtLink to="/">Home</NuxtLink>
                         </li>
                         <li class="border-b p-2 border-[#414141] hover:border-[#FF4F00]">
-                            <a href="#">About</a>
+                            <NuxtLink to="/about">About</NuxtLink>
                         </li>
                         <li class="border-b p-2 border-[#414141] hover:border-[#FF4F00]">
                             <a href="#">Portfolio</a>
@@ -34,7 +34,7 @@
                             <NuxtLink to="/">Home</NuxtLink>
                         </li>
                         <li class="border-b p-2 border-[#525252] hover:border-[#FF4F00] pl-5 mb-5">
-                            <a href="#">About</a>
+                            <NuxtLink to="/about">About</NuxtLink>
                         </li>
                         <li class="border-b p-2 border-[#525252] hover:border-[#FF4F00] pl-5 mb-5">
                             <a href="#">Portfolio</a>
