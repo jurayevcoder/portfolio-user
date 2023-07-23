@@ -2,8 +2,6 @@
     <section id="home" class="min-h-screen flex items-center justify-center border-b border-white">
         <div class="container mx-auto px-5 mt-20">
             <div class="flex flex-col lg:flex-row items-center gap-y-5 sm:gap-y-20 lg:justify-between py-5">
-                <!-- <img src="https://avatars.githubusercontent.com/u/129625436?v=4" alt=""
-                    class="  "> -->
                 <div class="img relative p-3 sm:p-5 lg:p-5">
                     <img src="https://avatars.githubusercontent.com/u/129625436?v=4" alt=""
                         class="w-[250px] h-[250px] sm:w-[400px] sm:h-[400px] 2xl:w-[500px] 2xl:h-[500px]">
@@ -107,31 +105,9 @@
                                 NestJs
                             </p>
                             <p class="flex items-center gap-2 text-white text-[16px] sm:text-[18px] font-bold">
-                                <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"
-                                    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-                                    xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg"
-                                    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-                                    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" aria-label="Vue" role="img"
-                                    viewBox="0 0 64 64" version="1.1" id="svg8" sodipodi:docname="vue-icon.svg"
-                                    class="w-[28px] h-[28px] sm:w-[30px] sm:h-[30px]"
+                                <svg aria-label="Vue" role="img" viewBox="0 0 64 64" version="1.1" id="svg8"
+                                    sodipodi:docname="vue-icon.svg" class="w-[28px] h-[28px] sm:w-[30px] sm:h-[30px]"
                                     inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
-                                    <metadata id="metadata14">
-                                        <rdf:RDF>
-                                            <cc:Work rdf:about="">
-                                                <dc:format>image/svg+xml</dc:format>
-                                                <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-                                                <dc:title />
-                                            </cc:Work>
-                                        </rdf:RDF>
-                                    </metadata>
-                                    <defs id="defs12" />
-                                    <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1"
-                                        objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0"
-                                        inkscape:pageshadow="2" inkscape:window-width="1566" inkscape:window-height="855"
-                                        id="namedview10" showgrid="false" inkscape:zoom="10.546875" inkscape:cx="32"
-                                        inkscape:cy="32" inkscape:window-x="70" inkscape:window-y="27"
-                                        inkscape:window-maximized="0" inkscape:current-layer="svg8"
-                                        inkscape:pagecheckerboard="true" />
                                     <path d="M 39.33333,5.5 32,18.33333 24.666667,5.5 H 0 L 32,61 64,5.5 Z" id="path4"
                                         inkscape:connector-curvature="0" style="fill:#42b883;stroke-width:0.16666667" />
                                     <path
@@ -167,6 +143,88 @@
                                 CSS
                             </p>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="min-h-screen flex items-center justify-center border-b border-white">
+        <div class="container mx-auto px-5 mt-20">
+            <div class="py-5">
+                <h1 class="about relative text-white text-[26px] sm:text-[30px] font-bold pb-5 mb-10">Portfolio</h1>
+                <div class="w-full flex overflow-x-scroll self-stretch gap-x-10">
+                    <div class="min-w-[250px] max-w-[250px] sm:min-w-[600px] sm:max-w-[600px] bg-[#414141] rounded-lg cursor-pointer">
+                        <img src="../public/tatu.jpg" class="w-[250px] h-[150px] sm:w-[650px] sm:h-[300px] rounded-t-lg mb-5 object-cover" alt="">
+                        <h2 class="ml-5 text-[#FF4F00] text-[16px] sm:text-[24px] font-bold mb-5 pb-1">TATU <span
+                                class="font-normal text-white"> — Education system, Admin dashboard</span></h2>
+                        <p class="ml-5 text-white text-[12px] sm:text-[18px] mb-10">We created this site with a team. We did
+                            this through VueJs. I have participated in the Sta, Students, Groups, Tests
+                            and Results section of the site. To enter the site: { login: davlat, password: Davlat!1 }</p>
+                        <a href="https://test-project-pi-nine.vercel.app/" target="_blank"
+                            class="ml-5 mb-5 text-white text-[14px] sm:text-[18px] w-[110px] sm:w-[130px] flex items-center gap-2 border-b border-[#FF4F00] hover:text-[#FF4F00]">View
+                            Project
+                            <svg class="w-[12px] h-[12px] sm:w-[16px] sm:h-[16px]" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.33341 1.66675H17.6667V15.0001M17.6667 1.66675L1.66675 17.6667L17.6667 1.66675Z"
+                                    stroke="#FF4F00" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+
+                    <div class="min-w-[250px] max-w-[250px] sm:min-w-[600px] sm:max-w-[600px] bg-[#414141] rounded-lg cursor-pointer">
+                        <img src="../public/market.jpg" class="w-[250px] h-[150px] sm:w-[650px] sm:h-[300px] rounded-t-lg mb-5 object-cover" alt="">
+                        <h2 class="ml-5 text-[#FF4F00] text-[16px] sm:text-[24px] font-bold mb-5 pb-1">Online Market<span
+                                class="font-normal text-white"></span></h2>
+                        <p class="ml-5 text-white text-[12px] sm:text-[18px] mb-10"> I used it on the front end of the site.
+                            I did it through NuxtJs because it works well and fast for SEO. A responsive version of the site
+                            has also been made.
+                            The site is written in JavaScript. The site has no backend.</p>
+                        <a href="https://my-online-market.netlify.app/" target="_blank"
+                            class="ml-5 mb-5 text-white text-[14px] sm:text-[18px] w-[110px] sm:w-[130px] flex items-center gap-2 border-b border-[#FF4F00] hover:text-[#FF4F00]">View
+                            Project
+                            <svg class="w-[12px] h-[12px] sm:w-[16px] sm:h-[16px]" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.33341 1.66675H17.6667V15.0001M17.6667 1.66675L1.66675 17.6667L17.6667 1.66675Z"
+                                    stroke="#FF4F00" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+
+                    <div class="min-w-[250px] max-w-[250px] sm:min-w-[600px] sm:max-w-[600px] bg-[#414141] rounded-lg cursor-pointer">
+                        <img src="../public/pomodoro.jpg" class="w-[250px] h-[150px] sm:w-[650px] sm:h-[300px] rounded-t-lg mb-5 object-cover" alt="">
+                        <h2 class="ml-5 text-[#FF4F00] text-[16px] sm:text-[24px] font-bold mb-5 pb-1">Pomodoro<span
+                                class="font-normal text-white"> — Time management</span></h2>
+                        <p class="ml-5 text-white text-[12px] sm:text-[18px] mb-10">I used it on the front end of the site.
+                            I did it through VueJs. A responsive version of the site has also been made. The site is written
+                            in JavaScript.</p>
+                        <a href="https://pomodoro-app-my.netlify.app/" target="_blank"
+                            class="ml-5 mb-5 text-white text-[14px] sm:text-[18px] w-[110px] sm:w-[130px] flex items-center gap-2 border-b border-[#FF4F00] hover:text-[#FF4F00]">View
+                            Project
+                            <svg class="w-[12px] h-[12px] sm:w-[16px] sm:h-[16px]" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.33341 1.66675H17.6667V15.0001M17.6667 1.66675L1.66675 17.6667L17.6667 1.66675Z"
+                                    stroke="#FF4F00" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+
+                    <div class="min-w-[250px] max-w-[250px] sm:min-w-[600px] sm:max-w-[600px] bg-[#414141] rounded-lg cursor-pointer">
+                        <img src="../public/leksika.jpg" class="w-[250px] h-[150px] sm:w-[650px] sm:h-[300px] rounded-t-lg mb-5 object-cover" alt="">
+                        <h2 class="ml-5 text-[#FF4F00] text-[16px] sm:text-[24px] font-bold mb-5 pb-1">Leksika <span
+                                class="font-normal text-white"> — Clone</span></h2>
+                        <p class="ml-5 text-white text-[12px] sm:text-[18px] mb-10">I used it on the front end of the site.
+                            I did it through NuxtJs because it works well and fast for SEO. The site is written in
+                            JavaScript. The site has no backend.</p>
+                        <a href="https://lekisika.netlify.app/eng-uzb" target="_blank"
+                            class="ml-5 mb-5 text-white text-[14px] sm:text-[18px] w-[110px] sm:w-[130px] flex items-center gap-2 border-b border-[#FF4F00] hover:text-[#FF4F00]">View
+                            Project
+                            <svg class="w-[12px] h-[12px] sm:w-[16px] sm:h-[16px]" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.33341 1.66675H17.6667V15.0001M17.6667 1.66675L1.66675 17.6667L17.6667 1.66675Z"
+                                    stroke="#FF4F00" stroke-width="2.66667" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </a>
                     </div>
                 </div>
             </div>
