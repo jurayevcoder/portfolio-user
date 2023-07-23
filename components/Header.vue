@@ -32,16 +32,16 @@
                         :class="menu ? 'bloc' : 'hidden'">
                         <li
                             class="border-b p-2 border-[#525252] hover:text-[#FF4F00] hover:border-[#FF4F00] pl-5 mb-5 mt-5">
-                            <a href="#home">Home</a>
+                            <a href="#home" @click="closeMenu">Home</a>
                         </li>
                         <li class="border-b p-2 border-[#525252] hover:text-[#FF4F00] hover:border-[#FF4F00] pl-5 mb-5">
-                            <a href="#about">About</a>
+                            <a href="#about" @click="closeMenu">About</a>
                         </li>
                         <li class="border-b p-2 border-[#525252] hover:text-[#FF4F00] hover:border-[#FF4F00] pl-5 mb-5">
-                            <a href="#portfolio">Portfolio</a>
+                            <a href="#portfolio" @click="closeMenu">Portfolio</a>
                         </li>
                         <li class="border-b p-2 border-[#525252] hover:text-[#FF4F00] hover:border-[#FF4F00] pl-5">
-                            <a href="#contact">Contact</a>
+                            <a href="#contact" @click="closeMenu">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -54,6 +54,7 @@
 import { ref } from '../.nuxt/imports';
 const menu = ref(false);
 const toggleMenu = () => (menu.value = !menu.value);
+const closeMenu = () => (menu.value = false);
 </script>
 
 <style lang="scss" scoped></style>
