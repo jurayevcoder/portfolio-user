@@ -13,16 +13,21 @@
                     <h1 class="text-[24px] sm:text-[40px] text-white font-bold mb-3 sm:mb-5">I'm <span
                             class="text-[#FF4F00]">Full stack
                             developer</span></h1>
-                    <p class="text-white text-[14px] sm:text-[18px]">Lorem ipsum dolor, sit amet consectetur
-                        adipisicing
-                        elit. Ea quas
-                        laboriosam provident, corporis dolor
-                        ducimus quos! Nostrum quas qui, non quo culpa laboriosam assumenda cum cumque consequuntur accusamus
-                        perferendis quod.</p>
-                    <button
-                        class="mt-10 sm:mt-20 hover:bg-[#FF4F00] text-white text-[14px] sm:text-[18px] py-3 px-5 rounded-full border-2 border-[#FF4F00]"><a
-                            href="Resume.pdf" download="" class="flex items-center gap-2"><i
-                                class='bx bxs-download text-[24px]'></i>Download Resume</a></button>
+                    <p class="text-white text-[14px] sm:text-[18px]">I am Muslim! I am a developer with experience in
+                        building
+                        websites
+                        for small and medium-sized businesses. I am full stack developer with ~ 1 years of experience
+                        mainly working. I mostly use NestJs on the backend and use VueJs and NuxtJs equally on the Frontend.
+                    </p>
+                    <div class="flex flex-wrap items-center gap-5 mt-10 sm:mt-20">
+                        <button
+                            class="w-full sm:w-auto hover:bg-[#FF4F00] text-white text-[14px] sm:text-[18px] py-3 px-5 rounded-full border-2 border-[#FF4F00]"><a
+                                href="Resume.pdf" download="" class="flex items-center justify-center gap-2"><i
+                                    class='bx bxs-download text-[24px]'></i>Download Resume</a></button>
+                        <button
+                            class="w-full sm:w-auto bg-[#FF4F00] text-white text-[14px] sm:text-[18px] py-3 px-5 rounded-full border-2 border-[#FF4F00]"><a
+                                href="#about" class="text-center">More About Me</a></button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -31,23 +36,27 @@
     <section id="about" class="min-h-screen flex items-center justify-center border-b border-white">
         <div class="container mx-auto px-5 mt-20">
             <div class="py-5">
-                <h1 class="about relative text-white text-[26px] sm:text-[30px] font-bold pb-5 mb-10">About me</h1>
+                <h1 class="about relative text-white text-[26px] sm:text-[30px] font-bold pb-5 mb-10">About Me</h1>
                 <h2 class="text-white text-[20px] sm:text-[24px] font-bold mb-4">I'm <span class="text-[#FF4F00]">Davlat
                         Jurayev</span> and
                     <span class="text-[#FF4F00]">Full stack developer</span>
                 </h2>
-                <p class="text-white text-[16px] sm:text-[18px] mb-10">Lorem, ipsum dolor sit amet consectetur adipisicing
-                    elit.
-                    Perferendis
-                    fugiat dignissimos quas, quasi,
-                    officiis similique consequatur harum eveniet hic aspernatur tenetur blanditiis labore, explicabo itaque!
-                    Repellendus dolorem quas quisquam cumque.
-                    Vero aperiam, suscipit quam perspiciatis eius dignissimos, iste debitis eos necessitatibus, numquam
-                    voluptates. Libero, cupiditate numquam ullam possimus maiores sint, assumenda, inventore tempore esse et
-                    provident alias nostrum laboriosam nam?
-                    Repellat iusto corporis culpa aliquid debitis odit labore repudiandae, dolor excepturi suscipit, fugit
-                    in perferendis recusandae libero. Quasi quia vitae corrupti. Fuga eius ipsam iure voluptate quam enim
-                    eaque soluta.</p>
+                <p class="text-white text-[16px] sm:text-[18px] mb-10">I am Muslim! I am a developer with experience in
+                    building websites
+                    for small and medium-sized businesses. I am full stack developer with ~ 1 years of experience
+                    mainly working. I mostly use NestJs on the backend and use VueJs and NuxtJs equally on the Frontend. I
+                    try to do more projects and most importantly, to do something useful for people. I don't like to do
+                    another project until I finish the project I started. God willing, I will do big projects in the future,
+                    and now I am walking on this path with my best steps.
+                </p>
+                <div class="flex flex-wrap items-center gap-5 mb-10">
+                    <a href="https://www.instagram.com/jurayevcoder_/" target="_blank"
+                        class="flex items-center gap-2 text-white text-[16px] border-b border-white hover:text-[#FF4F00]"><i
+                            class='bx bx-envelope text-[22px] sm:text-[24px] text-white'></i>davlatjurayev.1@gmail.com</a>
+                    <a href="https://www.instagram.com/jurayevcoder_/" target="_blank"
+                        class="flex items-center gap-2 text-white text-[16px] border-b border-white hover:text-[#FF4F00]"><i
+                            class='bx bxs-phone text-[20px] sm:text-[24px] text-white'></i>+998910030951</a>
+                </div>
                 <div class="w-full grid gird-cols-1 sm:grid-cols-2 self-stretch gap-x-10 gap-y-10">
                     <div class="w-full bg-[#414141] rounded-lg p-5">
                         <h2 class="text-white text-[20px] sm:text-[24px] border-b-2 border-[#FF4F00] font-bold mb-5 pb-1">
@@ -59,13 +68,9 @@
                                     2023</span>
                                 <h3 class="text-white text-[20px] sm:text-[24px] font-bold">Najot Ta ’lim Education Center
                                 </h3>
-                                <p class="text-white text-[14px] sm:text-[16px]">Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit.
-                                    Eius
-                                    mollitia dolorem delectus
-                                    saepe, eveniet minima vitae, esse laborum dignissimos ullam quasi veniam temporibus,
-                                    omnis
-                                    architecto labore beatae. Laudantium, porro magni!</p>
+                                <p class="text-white text-[14px] sm:text-[16px]">Learned technologies: HTML, CSS, SASS,
+                                    Bootstrap, Tailwind Css, JavaScript, VueJs, NodeJs,
+                                    ExpressJs, MongoDb, Postgres, Sequelize</p>
                             </div>
                         </div>
                     </div>
@@ -231,6 +236,47 @@
                             JavaScript. The site has no backend.</p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="min-h-screen flex items-center justify-center">
+        <div class="container mx-auto px-5 mt-20">
+            <div class="py-5 xl:px-36">
+                <h1 class="about relative text-white text-[26px] sm:text-[30px] font-bold pb-5 mb-10">Contact Me</h1>
+                <form action="#" class="w-full">
+                    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-5 sm:mb-10">
+                        <label for="first_name"
+                            class="w-full sm:w-[48%] text-[16px] sm:text-[18px] text-[#FF4F00] mb-5 sm:mb-0">First name
+                            <input id="first_name" type="first_name" placeholder="John"
+                                class="w-full p-5 rounded-lg text-white mt-1 text-[14px] sm:text-[16px] outline-none bg-[#414141]">
+                        </label>
+                        <label for="last_name" class="w-full sm:w-[48%] text-[16px] sm:text-[18px] text-[#FF4F00]">Last name
+                            <input id="last_name" type="last_name" placeholder="Doe"
+                                class="w-full p-5 rounded-lg text-white mt-1 text-[14px] sm:text-[16px] outline-none bg-[#414141]">
+                        </label>
+                    </div>
+                    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-5 sm:mb-10">
+                        <label for="email"
+                            class="w-full sm:w-[48%] text-[16px] sm:text-[18px] text-[#FF4F00] mb-5 sm:mb-0">Email
+                            <input id="email" type="email" placeholder="johndoe@gmail.com"
+                                class="w-full p-5 rounded-lg text-white mt-1 text-[14px] sm:text-[16px] outline-none bg-[#414141]">
+                        </label>
+                        <label for="username" class="w-full sm:w-[48%] text-[16px] sm:text-[18px] text-[#FF4F00]">Telegram
+                            username
+                            <input id="username" type="username" placeholder="@johndoe"
+                                class="w-full p-5 rounded-lg text-white mt-1 text-[14px] sm:text-[16px] outline-none bg-[#414141]">
+                        </label>
+                    </div>
+                    <label for="msg" class="w-full sm:w-[48%] text-[16px] sm:text-[18px] text-[#FF4F00]">Message
+                        <textarea name="message" id="msg" cols="30" rows="10" placeholder="Type or message..."
+                            class="w-full p-5 rounded-lg text-white mt-1 text-[14px] sm:text-[16px] outline-none bg-[#414141]"></textarea>
+                    </label>
+                    <h2 class="mt-10 text-end">
+                        <button
+                            class="border border-[#FF4F00] rounded-lg text-white text-[16px] sm:text-[18px] py-3 px-10 hover:bg-[#FF4F00]">Sent</button>
+                    </h2>
+                </form>
             </div>
         </div>
     </section>
