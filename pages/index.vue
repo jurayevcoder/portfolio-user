@@ -2,8 +2,8 @@
     <section id="home" class="min-h-screen flex items-center justify-center border-b border-white">
         <div class="container mx-auto px-5 mt-20">
             <div class="flex flex-col lg:flex-row items-center gap-y-5 sm:gap-y-20 lg:justify-between py-5">
-                <div class="img relative p-3 sm:p-5 lg:p-5">
-                    <img src="https://avatars.githubusercontent.com/u/129625436?v=4" alt=""
+                <div  class="img relative p-3 sm:p-5 lg:p-5">
+                    <img  src="https://avatars.githubusercontent.com/u/129625436?v=4" alt=""
                         class="w-[250px] h-[250px] sm:w-[400px] sm:h-[400px] 2xl:w-[500px] 2xl:h-[500px]">
                 </div>
                 <div class="w-full lg:w-[50%] xl:w-[60%]">
@@ -50,12 +50,12 @@
                     and now I am walking on this path with my best steps.
                 </p>
                 <div class="flex flex-wrap items-center gap-5 mb-10">
-                    <a href="https://www.instagram.com/jurayevcoder_/" target="_blank"
+                    <a href="mailto:jurayevcoder@gmail.com"
                         class="flex items-center gap-2 text-white text-[16px] border-b border-white hover:text-[#FF4F00]"><i
-                            class='bx bx-envelope text-[22px] sm:text-[24px] text-white'></i>davlatjurayev.1@gmail.com</a>
-                    <a href="https://www.instagram.com/jurayevcoder_/" target="_blank"
+                            class='bx bx-envelope text-[22px] sm:text-[24px] text-white'></i>jurayevcoder@gmail.com</a>
+                    <a href="tel:+998330237376"
                         class="flex items-center gap-2 text-white text-[16px] border-b border-white hover:text-[#FF4F00]"><i
-                            class='bx bxs-phone text-[20px] sm:text-[24px] text-white'></i>+998910030951</a>
+                            class='bx bxs-phone text-[20px] sm:text-[24px] text-white'></i>+998330237376</a>
                 </div>
                 <div class="w-full grid gird-cols-1 sm:grid-cols-2 self-stretch gap-x-10 gap-y-10">
                     <div class="w-full bg-[#414141] rounded-lg p-5">
@@ -66,7 +66,8 @@
                                 <span class="flex items-center gap-2 text-white text-[12px] sm:text-[14px]"><i
                                         class='bx bxs-calendar text-white text-[16px] sm:text-[18px]'></i>Feb 2022 - Jan
                                     2023</span>
-                                <h3 class="text-white text-[20px] sm:text-[24px] font-bold">Najot Ta ’lim Education Center
+                                <h3 class="text-white text-[20px] sm:text-[24px] font-bold hover:text-[#FF4F00]"><a
+                                        href="https://najottalim.uz/" target="_blank">Najot Ta ’lim Education Center</a>
                                 </h3>
                                 <p class="text-white text-[14px] sm:text-[16px]">Learned technologies: HTML, CSS, SASS,
                                     Bootstrap, Tailwind Css, JavaScript, VueJs, NodeJs,
@@ -282,7 +283,8 @@
     </section>
 </template>
 
-<script></script>
+<script>
+</script>
 
 <style lang="css" scoped>
 .img::before {
